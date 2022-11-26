@@ -17,17 +17,17 @@ nav {
         justify-content: center;
         align-items: center;
 
-        color: #E1E1E6;
+        color: ${(props) => props.theme['gray-100']};
 
         border-top: 3px solid transparent;
         border-bottom: 3px solid transparent;
 
         &:hover {
-            border-bottom: 3px solid #00875F;
+            border-bottom: 3px solid ${(props) => props.theme['green-500']};
         }
 
         &.active {
-            color: #00875F;
+            color: ${(props) => props.theme['green-500']};
         }
     }
 }
