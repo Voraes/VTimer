@@ -112,7 +112,7 @@ export const TaskInput = styled(BaseInput)`
 `;
 
 export const MinuteAmountInput = styled(BaseInput)`
-    width: 4rem;
-    -webkit-appearance: none;
-    -moz-appearance: textfield;
+    width: 4rem; 
+/*     -webkit-appearance: none;
+    -moz-appearance: textfield; */
 `;
